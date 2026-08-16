@@ -1,0 +1,22 @@
+//Copyright (C)2014-2025 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.11.03 Education
+//Part Number: GW1NZ-LV1QN48C6/I5
+//Device: GW1NZ-1
+//Created Time: Tue 07 28 16:09:54 2026
+
+IO_LOC "i2c_scl_pin" 16;
+IO_PORT "i2c_scl_pin" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "led_rf" 11;
+IO_PORT "led_rf" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "rf_flag" 10;
+IO_PORT "rf_flag" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "i2c_sda_pin" 17;
+IO_PORT "i2c_sda_pin" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "rf_data_in" 40;
+IO_PORT "rf_data_in" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "rst_n" 13;
+IO_PORT "rst_n" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "clk" 47;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;

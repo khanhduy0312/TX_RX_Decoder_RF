@@ -1,0 +1,9 @@
+# Bỏ qua thư mục chứa kết quả biên dịch
+impl/
+al_b/
+*.rao
+
+# Chỉ giữ lại code nguồn
+!src/
+!*.cst
+!*.gprj

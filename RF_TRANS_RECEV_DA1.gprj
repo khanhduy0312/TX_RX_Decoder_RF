@@ -1,0 +1,15 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NZ-1" pn="GW1NZ-LV1QN48C6/I5">gw1nz1-015</Device>
+    <FileList>
+        <File path="src/DA1.v" type="file.verilog" enable="1"/>
+        <File path="src/DECODE_RF.v" type="file.verilog" enable="1"/>
+        <File path="src/Scan_rf.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/lcd_i2c_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/RF_TRANS_RECEV_DA1.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
